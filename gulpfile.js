@@ -32,8 +32,8 @@ gulp.task('build', function() {
 });
 
 gulp.task('less', function() {
-  return gulp.src('../node_modules/@holidayextras/hx-brand/src/less/theme.less')
+  return gulp.src('./src/currency-convertor/demo.less')
   .pipe(less())
   .on('error', logError)
-  .pipe('./demo');
+  .pipe(gulp.dest('./demo'));
 });

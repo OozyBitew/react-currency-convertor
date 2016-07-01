@@ -2,7 +2,7 @@ const request = require('request');
 const $ = require('jquery');
 const React = require('react');
 const ReactDOM = require('react-dom');
-const { Input } = require('react-bootstrap');
+const { Col, Form, FormGroup, Input } = require('react-bootstrap');
 const { Button } = require('@holidayextras/ui-toolkit');
 var _ = require('lodash');
 
@@ -57,12 +57,14 @@ var CurrencyConverter = React.createClass({
     });
 
     return (
-      <div>
+      <form>
+        <label>GBP</label>
+        <input type='text' label='GBP' onChange={this.convertCurrency} value={this.state.base} />
         <Button purpose='primary' onClick={this.selectConversion.bind(this, 'USD')}>USD</Button>
         <Button purpose='primary' onClick={this.selectConversion.bind(this, 'EUR')}>EUR</Button>
-        <Input type='text' label='GBP' onChange={this.convertCurrency} value={this.state.base} />
-        <Input type='text' label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
-      </div>
+        <label>{this.state.conversion}</label>
+        <input type='text' label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
+      </form>
     );
   }
 });
