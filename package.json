@@ -4,7 +4,7 @@
   "description": "Currency Convertor for converting currencies",
   "main": "src/index.jsx",
   "scripts": {
-    "build": "gulp less && gulp build",
+    "build": "gulp less && gulp buildjs && gulp buildDemo",
     "lint": "make-up && echo 'Linting: ✓'",
     "test": "echo '0 tests passed'"
   },
