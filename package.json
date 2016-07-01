@@ -4,7 +4,8 @@
   "description": "Currency Convertor for converting currencies",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "lint": "make-up && echo 'Linting: ✓'",
+    "test": "echo '0 tests passed'"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.8",
     "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "make-up": "^9.2.0"
   }
 }
