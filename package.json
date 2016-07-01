@@ -2,7 +2,7 @@
   "name": "react-currency-converter",
   "version": "1.0.0",
   "description": "Currency Convertor for converting currencies",
-  "main": "src/index.jsx",
+  "main": "dist/Converter.js",
   "scripts": {
     "build": "gulp less && gulp buildjs && gulp buildDemo",
     "lint": "make-up && echo 'Linting: ✓'",
