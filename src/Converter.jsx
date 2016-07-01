@@ -46,23 +46,23 @@ module.exports = React.createClass({
     return (
       <form className="form-horizontal">
         <div className="form-group">
-          <div className="col-sm-4">
+          <div className="col-sm-6 col-md-4">
             <label for="GBP">GBP</label>
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-6 col-md-8">
             <input type='text' className="form-control" label='GBP' onChange={this.convertCurrency} value={this.state.base} />
           </div>
         </div>
 
 
         <div className="form-group">
-          <div className="col-sm-4">
+          <div className="col-sm-6 col-md-4">
             <select className="form-control" onChange={this.selectConversion}>
               <option value="EUR">Euro</option>
               <option value="USD">US Dollar</option>
             </select>
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-6 col-md-8">
             <input type='text' className="form-control" label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
           </div>
         </div>

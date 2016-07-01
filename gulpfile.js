@@ -17,25 +17,6 @@ function logError(error) {
   this.emit('end');
 }
 
-gulp.task('build', function() {
-  return gulp.src('./src/*.js*')
-  .pipe(babel({
-    presets: ['es2015', 'react']
-  }))
-  .on('error', logError)
-  .pipe(browserify({
-    global: true,
-    debug: true,
-    extensions: ['.jsx']
-  }))
-  .on('error', logError)
-  .pipe(uglify())
-  .pipe(gulp.dest('./demo'));
-});
-
-//
-// Hack because I can't figure out why the above task doesn't work
-//
 gulp.task('buildjs', function() {
   return gulp.src('./src/*.js*')
   .pipe(babel({
@@ -55,9 +36,6 @@ gulp.task('buildDemo', function() {
     .pipe(uglify())
     .pipe(gulp.dest('./demo'));
 });
-//
-// End hack
-//
 
 gulp.task('less', function() {
   return gulp.src('./src/demo.less')
