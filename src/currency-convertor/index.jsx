@@ -29,11 +29,13 @@ var CurrencyConverter = React.createClass({
   },
 
   selectConversion(conversion) {
-    this.setState({ conversion });
-    this.convertCurrency();
+    this.setState({ conversion }, () => {
+      this.convertCurrency();
+    });
   },
 
   convertCurrency(e) {
+    console.log('hello', this.state.conversion);
     let val = this.state.base;
     if(e && e.target) {
       val = e.target.value;
