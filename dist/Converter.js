@@ -1,6 +1,5 @@
 'use strict';
 
-var request = require('request');
 var $ = require('jquery');
 var React = require('react');
 
