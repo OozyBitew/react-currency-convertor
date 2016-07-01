@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/holidayextras/react-currency-convertor/issues"
   },
-  "homepage": "https://github.com/holidayextras/react-currency-convertor#readme"
+  "homepage": "https://github.com/holidayextras/react-currency-convertor#readme",
+  "dependencies": {
+    "@holidayextras/ui-toolkit": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.28.5",
+    "react-dom": "^0.14.8"
+  }
 }
