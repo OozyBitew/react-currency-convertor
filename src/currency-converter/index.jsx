@@ -48,21 +48,29 @@ var CurrencyConverter = React.createClass({
   render: function() {
     return (
       <form className="form-horizontal">
+        <center><h2>Currency Convertor</h2></center>
         <div className="form-group">
-          <label className="col-md-2">GBP</label>
           <div className="col-md-10">
-            <input type='text' label='GBP' onChange={this.convertCurrency} value={this.state.base} />
+            <label for="GBP">GBP</label>
+            <input type='text' className="form-control" label='GBP' onChange={this.convertCurrency} value={this.state.base} />
           </div>
         </div>
+
         <div className="form-group">
-          <select className="col-md-2" onChange={this.selectConversion}>
-            <option value="EUR">Euro</option>
-            <option value="USD">US Dollar</option>
-          </select>
           <div className="col-md-10">
-            <input type='text' label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
+            <select className="form-control" onChange={this.selectConversion}>
+              <option value="EUR">Euro</option>
+              <option value="USD">US Dollar</option>
+            </select>
           </div>
         </div>
+
+        <div className="form-group">
+          <div className="col-md-10">
+            <input type='text' className="form-control" label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
+          </div>
+        </div>
+
       </form>
     );
   }
