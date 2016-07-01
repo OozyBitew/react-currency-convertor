@@ -58,14 +58,14 @@ module.exports = React.createClass({
           { className: 'col-sm-6 col-md-4' },
           React.createElement(
             'label',
-            { 'for': 'GBP' },
+            null,
             'GBP'
           )
         ),
         React.createElement(
           'div',
           { className: 'col-sm-6 col-md-8' },
-          React.createElement('input', { type: 'text', className: 'form-control', label: 'GBP', onChange: this.convertCurrency, value: this.state.base })
+          React.createElement('input', { type: 'text', className: 'form-control', onChange: this.convertCurrency, value: this.state.base })
         )
       ),
       React.createElement(

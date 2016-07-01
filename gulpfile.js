@@ -1,14 +1,22 @@
 'use strict';
 
-var gulp = require('gulp');
-var babel = require('gulp-babel');
-var browserify = require('gulp-browserify');
-var less = require('gulp-less');
-var notify = require('gulp-notify');
-var uglify = require('gulp-uglify');
+const gulp = require('gulp');
+const babel = require('gulp-babel');
+const browserify = require('gulp-browserify');
+const less = require('gulp-less');
+const notify = require('gulp-notify');
+const uglify = require('gulp-uglify');
+const watch = require('gulp-watch');
+const runSequence = require('run-sequence');
+
+const paths = {
+  SRC: './src',
+  DIST: './dist',
+  DEMO: './demo'
+};
 
 function logError(error) {
-  var errorString = error.toString();
+  const errorString = error.toString();
   notify.onError({
     title: 'Build Error',
     message: errorString
@@ -18,15 +26,15 @@ function logError(error) {
 }
 
 gulp.task('buildjs', function() {
-  return gulp.src('./src/*.js*')
+  return gulp.src(paths.SRC + '/*.js*')
   .pipe(babel({
     presets: ['es2015', 'react']
   }))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest(paths.DIST));
 });
 
 gulp.task('buildDemo', function() {
-  return gulp.src('./dist/*.js*')
+  return gulp.src(paths.DIST + '/*.js*')
   .pipe(browserify({
       global: true,
       debug: true,
@@ -34,12 +42,26 @@ gulp.task('buildDemo', function() {
     }))
     .on('error', logError)
     .pipe(uglify())
-    .pipe(gulp.dest('./demo'));
+    .pipe(gulp.dest(paths.DEMO));
 });
 
 gulp.task('less', function() {
-  return gulp.src('./src/demo.less')
+  return gulp.src(paths.SRC + '/*.less')
   .pipe(less())
   .on('error', logError)
-  .pipe(gulp.dest('./demo'));
+  .pipe(gulp.dest(paths.DEMO));
+});
+
+gulp.task('watch', function() {
+  watch(paths.SRC, function() {
+    gulp.start('build-all');
+  });
+});
+
+gulp.task('build-all', function() {
+  gulp.start('buildjs', 'buildDemo', 'less');
+});
+
+gulp.task('start', function(cb) {
+  return runSequence('build-all', ['watch'], cb);
 });
