@@ -2,7 +2,6 @@ const request = require('request');
 const $ = require('jquery');
 const React = require('react');
 const ReactDOM = require('react-dom');
-const { Button } = require('@holidayextras/ui-toolkit');
 var _ = require('lodash');
 
 var CurrencyConverter = React.createClass({

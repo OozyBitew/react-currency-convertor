@@ -1071,7 +1071,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.61803399;
   color: #414141;
@@ -1292,7 +1292,7 @@ p {
 }
 small,
 .small {
-  font-size: 4%;
+  font-size: 87%;
 }
 mark,
 .mark {
@@ -2546,7 +2546,7 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 0.25em;
+  border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -2604,7 +2604,7 @@ input[type="search"] {
   .input-group-sm input[type="time"],
   .input-group-sm input[type="datetime-local"],
   .input-group-sm input[type="month"] {
-    line-height: 13em;
+    line-height: 33px;
   }
   input[type="date"].input-lg,
   input[type="time"].input-lg,
@@ -2614,7 +2614,7 @@ input[type="search"] {
   .input-group-lg input[type="time"],
   .input-group-lg input[type="datetime-local"],
   .input-group-lg input[type="month"] {
-    line-height: 44em;
+    line-height: 69px;
   }
 }
 .form-group {
@@ -2694,77 +2694,77 @@ fieldset[disabled] .checkbox label {
   padding-right: 0;
 }
 .input-sm {
-  height: 13em;
+  height: 33px;
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
 }
 select.input-sm {
-  height: 13em;
-  line-height: 13em;
+  height: 33px;
+  line-height: 33px;
 }
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
-  height: 13em;
+  height: 33px;
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
 }
 .form-group-sm select.form-control {
-  height: 13em;
-  line-height: 13em;
+  height: 33px;
+  line-height: 33px;
 }
 .form-group-sm textarea.form-control,
 .form-group-sm select[multiple].form-control {
   height: auto;
 }
 .form-group-sm .form-control-static {
-  height: 13em;
-  min-height: 25.75px;
+  height: 33px;
+  min-height: 39px;
   padding: 6px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
 }
 .input-lg {
-  height: 44em;
+  height: 69px;
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
   border-radius: 10px;
 }
 select.input-lg {
-  height: 44em;
-  line-height: 44em;
+  height: 69px;
+  line-height: 69px;
 }
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto;
 }
 .form-group-lg .form-control {
-  height: 44em;
+  height: 69px;
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
   border-radius: 10px;
 }
 .form-group-lg select.form-control {
-  height: 44em;
-  line-height: 44em;
+  height: 69px;
+  line-height: 69px;
 }
 .form-group-lg textarea.form-control,
 .form-group-lg select[multiple].form-control {
   height: auto;
 }
 .form-group-lg .form-control-static {
-  height: 44em;
-  min-height: 26.25px;
+  height: 69px;
+  min-height: 45px;
   padding: 21px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
 }
 .has-feedback {
@@ -2788,16 +2788,16 @@ select[multiple].input-lg {
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
-  width: 44em;
-  height: 44em;
-  line-height: 44em;
+  width: 69px;
+  height: 69px;
+  line-height: 69px;
 }
 .input-sm + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
-  width: 13em;
-  height: 13em;
-  line-height: 13em;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
 }
 .has-success .help-block,
 .has-success .control-label,
@@ -2980,13 +2980,13 @@ select[multiple].input-lg {
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 21px;
-    font-size: 1.25em;
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
-    font-size: 0.75em;
+    font-size: 14px;
   }
 }
 .btn {
@@ -3423,21 +3423,21 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
   border-radius: 10px;
 }
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
 }
 .btn-xs,
 .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
 }
@@ -3587,7 +3587,7 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.61803399;
   color: #b1b1b1;
   white-space: nowrap;
@@ -3821,17 +3821,17 @@ tbody.collapse.in {
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 44em;
+  height: 69px;
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
   border-radius: 10px;
 }
 select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
-  height: 44em;
-  line-height: 44em;
+  height: 69px;
+  line-height: 69px;
 }
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
@@ -3844,17 +3844,17 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 13em;
+  height: 33px;
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
 }
 select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
-  height: 13em;
-  line-height: 13em;
+  height: 33px;
+  line-height: 33px;
 }
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
@@ -3889,16 +3889,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
-  border-radius: 0.25em;
+  border-radius: 4px;
 }
 .input-group-addon.input-sm {
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   border-radius: 2px;
 }
 .input-group-addon.input-lg {
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   border-radius: 10px;
 }
 .input-group-addon input[type="radio"],
@@ -4257,7 +4257,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 9.5px 15px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 25px;
   height: 44px;
 }
@@ -4444,8 +4444,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: -1.5px;
 }
 .navbar-btn.btn-sm {
-  margin-top: 15.5px;
-  margin-bottom: 15.5px;
+  margin-top: 5.5px;
+  margin-bottom: 5.5px;
 }
 .navbar-btn.btn-xs {
   margin-top: 11px;
@@ -4757,7 +4757,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 20px 30px;
-  font-size: 1.25em;
+  font-size: 20px;
   line-height: 1.3333333;
 }
 .pagination-lg > li:first-child > a,
@@ -4773,7 +4773,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 1.5;
 }
 .pagination-sm > li:first-child > a,
@@ -4895,7 +4895,7 @@ a.label:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 0.75em;
+  font-size: 14px;
   font-weight: bold;
   color: #fff;
   line-height: 1;
@@ -5110,7 +5110,7 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 25px;
   color: #fff;
   text-align: center;
@@ -5963,7 +5963,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5978,7 +5978,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 0.75em;
+  font-size: 14px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -6081,7 +6081,7 @@ button.close {
   display: none;
   max-width: 320px;
   padding: 1px;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6719,1396 +6719,6 @@ button.close {
     display: none !important;
   }
 }
-/*------------------------------------*\
-    #UI-Toolkit
-\*------------------------------------*/
-/*------------------------------------*\
-    #Variables
-\*------------------------------------*/
-/*------------------------------------*\
-    #Colors
-\*------------------------------------*/
-/*------------------------------------*\
-    #Typography
-\*------------------------------------*/
-/*------------------------------------*\
-    #Sizes
-\*------------------------------------*/
-.small,
-small {
-  font-size: 0.75em;
-}
-.medium,
-.default {
-  font-size: 1em;
-}
-.large {
-  font-size: 1.25em;
-}
-.extra-large {
-  font-size: 1.5em;
-}
-/*------------------------------------*\
-    #Forms
-\*------------------------------------*/
-.component-input input {
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
-}
-.component-input input:focus {
-  background: #ffffff;
-  border-color: #51a7e8;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(81, 167, 232, 0.5);
-}
-/*------------------------------------*\
-    #Borders
-\*------------------------------------*/
-/*------------------------------------*\
-    #Quote
-\*------------------------------------*/
-.component-alert {
-  padding: 1em;
-  border-radius: 0.25em;
-  overflow: hidden;
-  position: relative;
-}
-.component-alert + .component-alert {
-  margin-top: 0.5em;
-}
-.component-alert h4 {
-  margin-top: 0;
-}
-.component-alert p:last-of-type {
-  margin: 0;
-}
-.component-alert {
-  color: #a2a2a2;
-  background-color: #ffffff;
-  border: #eeeeee solid 1px;
-}
-.component-alert.default {
-  color: #a2a2a2;
-  background-color: #ffffff;
-  border: #eeeeee solid 1px;
-}
-.component-alert.primary {
-  color: #3d1452;
-  background-color: #d6adeb;
-  border: #9933cc solid 1px;
-}
-.component-alert.secondary {
-  color: #002e42;
-  background-color: #75d5ff;
-  border: #0099db solid 1px;
-}
-.component-alert.success {
-  color: #324415;
-  background-color: #cde4a7;
-  border: #88ba38 solid 1px;
-}
-.component-alert.info {
-  color: #1b7385;
-  background-color: #daf2f8;
-  border: #5bc7de solid 1px;
-}
-.component-alert.warning {
-  color: #985f0d;
-  background-color: #fceedb;
-  border: #f0ad4e solid 1px;
-}
-.component-alert.danger {
-  color: #56110f;
-  background-color: #f0a9a7;
-  border: #d82b26 solid 1px;
-}
-/*------------------------------------*\
-    #Basket Item
-\*------------------------------------*/
-.component-basket-item {
-  padding: .5em;
-}
-.component-basket-row {
-  display: table;
-  table-layout: fixed;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-.component-basket-row .component-basket-item-title {
-  flex: 1;
-  display: table-cell;
-}
-.component-basket-row .component-basket-item-description {
-  flex: 1;
-  display: table-cell;
-  font-size: .85em;
-}
-.component-basket-row .component-basket-item-total {
-  flex: 0 1 20%;
-  display: table-cell;
-  margin-left: .25em;
-  text-align: right;
-}
-.component-basket-row .component-basket-item-remove {
-  flex: 0 1 20%;
-  display: table-cell;
-  margin-left: .25em;
-  text-align: right;
-  font-size: .85em;
-}
-/*------------------------------------*\
-    #Button
-\*------------------------------------*/
-.component-button {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid #e1e1e1;
-  white-space: nowrap;
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  text-decoration: none;
-}
-.component-button:focus,
-.component-button:active:focus,
-.component-button.active:focus,
-.component-button.focus,
-.component-button:active.focus,
-.component-button.active.focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-.component-button:hover,
-.component-button:focus,
-.component-button.focus {
-  color: #eeeeee;
-  text-decoration: none;
-}
-.component-button:active,
-.component-button.active {
-  outline: 0;
-  background-image: none;
-}
-.component-button.disabled,
-.component-button[disabled] {
-  pointer-events: none;
-  opacity: .65;
-}
-.component-button.block {
-  display: block;
-  width: 100%;
-}
-.component-button {
-  background-color: #eeeeee;
-  border-color: #e1e1e1;
-  color: #414141;
-}
-.component-button:hover,
-.component-button:focus,
-.component-button.focus,
-.component-button:active,
-.component-button.active {
-  background-color: #d5d5d5;
-  border-color: #c3c3c3;
-  color: #414141;
-}
-.component-button:active,
-.component-button.active,
-.component-button.disabled,
-.component-button[disabled],
-.component-button:active:hover,
-.component-button.active:hover,
-.component-button.disabled:hover,
-.component-button[disabled]:hover,
-.component-button:active:focus,
-.component-button.active:focus,
-.component-button.disabled:focus,
-.component-button[disabled]:focus,
-.component-button:active.focus,
-.component-button.active.focus,
-.component-button.disabled.focus,
-.component-button[disabled].focus,
-.component-button:active:active,
-.component-button.active:active,
-.component-button.disabled:active,
-.component-button[disabled]:active,
-.component-button:active.active,
-.component-button.active.active,
-.component-button.disabled.active,
-.component-button[disabled].active {
-  background-color: #eeeeee;
-  border-color: #e1e1e1;
-}
-.component-button.default {
-  background-color: #eeeeee;
-  border-color: #e1e1e1;
-  color: #414141;
-}
-.component-button.default:hover,
-.component-button.default:focus,
-.component-button.default.focus,
-.component-button.default:active,
-.component-button.default.active {
-  background-color: #d5d5d5;
-  border-color: #c3c3c3;
-  color: #414141;
-}
-.component-button.default:active,
-.component-button.default.active,
-.component-button.default.disabled,
-.component-button.default[disabled],
-.component-button.default:active:hover,
-.component-button.default.active:hover,
-.component-button.default.disabled:hover,
-.component-button.default[disabled]:hover,
-.component-button.default:active:focus,
-.component-button.default.active:focus,
-.component-button.default.disabled:focus,
-.component-button.default[disabled]:focus,
-.component-button.default:active.focus,
-.component-button.default.active.focus,
-.component-button.default.disabled.focus,
-.component-button.default[disabled].focus,
-.component-button.default:active:active,
-.component-button.default.active:active,
-.component-button.default.disabled:active,
-.component-button.default[disabled]:active,
-.component-button.default:active.active,
-.component-button.default.active.active,
-.component-button.default.disabled.active,
-.component-button.default[disabled].active {
-  background-color: #eeeeee;
-  border-color: #e1e1e1;
-}
-.component-button.primary {
-  background-color: #9933cc;
-  border-color: #8a2eb8;
-  color: #ffffff;
-}
-.component-button.primary:hover,
-.component-button.primary:focus,
-.component-button.primary.focus,
-.component-button.primary:active,
-.component-button.primary.active {
-  background-color: #7a29a3;
-  border-color: #652287;
-  color: #ffffff;
-}
-.component-button.primary:active,
-.component-button.primary.active,
-.component-button.primary.disabled,
-.component-button.primary[disabled],
-.component-button.primary:active:hover,
-.component-button.primary.active:hover,
-.component-button.primary.disabled:hover,
-.component-button.primary[disabled]:hover,
-.component-button.primary:active:focus,
-.component-button.primary.active:focus,
-.component-button.primary.disabled:focus,
-.component-button.primary[disabled]:focus,
-.component-button.primary:active.focus,
-.component-button.primary.active.focus,
-.component-button.primary.disabled.focus,
-.component-button.primary[disabled].focus,
-.component-button.primary:active:active,
-.component-button.primary.active:active,
-.component-button.primary.disabled:active,
-.component-button.primary[disabled]:active,
-.component-button.primary:active.active,
-.component-button.primary.active.active,
-.component-button.primary.disabled.active,
-.component-button.primary[disabled].active {
-  background-color: #9933cc;
-  border-color: #8a2eb8;
-}
-.component-button.secondary {
-  background-color: #0099db;
-  border-color: #0087c2;
-  color: #414141;
-}
-.component-button.secondary:hover,
-.component-button.secondary:focus,
-.component-button.secondary.focus,
-.component-button.secondary:active,
-.component-button.secondary.active {
-  background-color: #0075a8;
-  border-color: #005c84;
-  color: #414141;
-}
-.component-button.secondary:active,
-.component-button.secondary.active,
-.component-button.secondary.disabled,
-.component-button.secondary[disabled],
-.component-button.secondary:active:hover,
-.component-button.secondary.active:hover,
-.component-button.secondary.disabled:hover,
-.component-button.secondary[disabled]:hover,
-.component-button.secondary:active:focus,
-.component-button.secondary.active:focus,
-.component-button.secondary.disabled:focus,
-.component-button.secondary[disabled]:focus,
-.component-button.secondary:active.focus,
-.component-button.secondary.active.focus,
-.component-button.secondary.disabled.focus,
-.component-button.secondary[disabled].focus,
-.component-button.secondary:active:active,
-.component-button.secondary.active:active,
-.component-button.secondary.disabled:active,
-.component-button.secondary[disabled]:active,
-.component-button.secondary:active.active,
-.component-button.secondary.active.active,
-.component-button.secondary.disabled.active,
-.component-button.secondary[disabled].active {
-  background-color: #0099db;
-  border-color: #0087c2;
-}
-.component-button.success {
-  background-color: #88ba38;
-  border-color: #7aa632;
-  color: #414141;
-}
-.component-button.success:hover,
-.component-button.success:focus,
-.component-button.success.focus,
-.component-button.success:active,
-.component-button.success.active {
-  background-color: #6b932c;
-  border-color: #577724;
-  color: #414141;
-}
-.component-button.success:active,
-.component-button.success.active,
-.component-button.success.disabled,
-.component-button.success[disabled],
-.component-button.success:active:hover,
-.component-button.success.active:hover,
-.component-button.success.disabled:hover,
-.component-button.success[disabled]:hover,
-.component-button.success:active:focus,
-.component-button.success.active:focus,
-.component-button.success.disabled:focus,
-.component-button.success[disabled]:focus,
-.component-button.success:active.focus,
-.component-button.success.active.focus,
-.component-button.success.disabled.focus,
-.component-button.success[disabled].focus,
-.component-button.success:active:active,
-.component-button.success.active:active,
-.component-button.success.disabled:active,
-.component-button.success[disabled]:active,
-.component-button.success:active.active,
-.component-button.success.active.active,
-.component-button.success.disabled.active,
-.component-button.success[disabled].active {
-  background-color: #88ba38;
-  border-color: #7aa632;
-}
-.component-button.info {
-  background-color: #5bc7de;
-  border-color: #46c0da;
-  color: #414141;
-}
-.component-button.info:hover,
-.component-button.info:focus,
-.component-button.info.focus,
-.component-button.info:active,
-.component-button.info.active {
-  background-color: #31b9d5;
-  border-color: #26a2bc;
-  color: #414141;
-}
-.component-button.info:active,
-.component-button.info.active,
-.component-button.info.disabled,
-.component-button.info[disabled],
-.component-button.info:active:hover,
-.component-button.info.active:hover,
-.component-button.info.disabled:hover,
-.component-button.info[disabled]:hover,
-.component-button.info:active:focus,
-.component-button.info.active:focus,
-.component-button.info.disabled:focus,
-.component-button.info[disabled]:focus,
-.component-button.info:active.focus,
-.component-button.info.active.focus,
-.component-button.info.disabled.focus,
-.component-button.info[disabled].focus,
-.component-button.info:active:active,
-.component-button.info.active:active,
-.component-button.info.disabled:active,
-.component-button.info[disabled]:active,
-.component-button.info:active.active,
-.component-button.info.active.active,
-.component-button.info.disabled.active,
-.component-button.info[disabled].active {
-  background-color: #5bc7de;
-  border-color: #46c0da;
-}
-.component-button.warning {
-  background-color: #f0ad4e;
-  border-color: #eea236;
-  color: #414141;
-}
-.component-button.warning:hover,
-.component-button.warning:focus,
-.component-button.warning.focus,
-.component-button.warning:active,
-.component-button.warning.active {
-  background-color: #ec971f;
-  border-color: #d58512;
-  color: #414141;
-}
-.component-button.warning:active,
-.component-button.warning.active,
-.component-button.warning.disabled,
-.component-button.warning[disabled],
-.component-button.warning:active:hover,
-.component-button.warning.active:hover,
-.component-button.warning.disabled:hover,
-.component-button.warning[disabled]:hover,
-.component-button.warning:active:focus,
-.component-button.warning.active:focus,
-.component-button.warning.disabled:focus,
-.component-button.warning[disabled]:focus,
-.component-button.warning:active.focus,
-.component-button.warning.active.focus,
-.component-button.warning.disabled.focus,
-.component-button.warning[disabled].focus,
-.component-button.warning:active:active,
-.component-button.warning.active:active,
-.component-button.warning.disabled:active,
-.component-button.warning[disabled]:active,
-.component-button.warning:active.active,
-.component-button.warning.active.active,
-.component-button.warning.disabled.active,
-.component-button.warning[disabled].active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
-}
-.component-button.danger {
-  background-color: #d82b26;
-  border-color: #c22722;
-  color: #ffffff;
-}
-.component-button.danger:hover,
-.component-button.danger:focus,
-.component-button.danger.focus,
-.component-button.danger:active,
-.component-button.danger.active {
-  background-color: #ad221e;
-  border-color: #8e1c19;
-  color: #ffffff;
-}
-.component-button.danger:active,
-.component-button.danger.active,
-.component-button.danger.disabled,
-.component-button.danger[disabled],
-.component-button.danger:active:hover,
-.component-button.danger.active:hover,
-.component-button.danger.disabled:hover,
-.component-button.danger[disabled]:hover,
-.component-button.danger:active:focus,
-.component-button.danger.active:focus,
-.component-button.danger.disabled:focus,
-.component-button.danger[disabled]:focus,
-.component-button.danger:active.focus,
-.component-button.danger.active.focus,
-.component-button.danger.disabled.focus,
-.component-button.danger[disabled].focus,
-.component-button.danger:active:active,
-.component-button.danger.active:active,
-.component-button.danger.disabled:active,
-.component-button.danger[disabled]:active,
-.component-button.danger:active.active,
-.component-button.danger.active.active,
-.component-button.danger.disabled.active,
-.component-button.danger[disabled].active {
-  background-color: #d82b26;
-  border-color: #c22722;
-}
-/*------------------------------------*\
-    #button-dropdown
-\*------------------------------------*/
-.component-button-dropdown {
-  position: relative;
-  max-width: 160px;
-}
-.component-button-dropdown .component-button {
-  margin: 0;
-}
-.component-button-dropdown .component-button:first-of-type {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.component-button-dropdown .component-button:last-of-type {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.component-button-dropdown .component-button:last-of-type .component-icon {
-  line-height: 1.61803399em;
-}
-.component-button-dropdown .component-unordered-list {
-  position: absolute;
-  left: 0;
-  margin: 0;
-  min-width: 160px;
-  display: none;
-  list-style: none;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background-color: #ffffff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-}
-.component-button-dropdown .visible {
-  position: relative;
-  display: block;
-}
-.component-button-dropdown .component-list-item {
-  padding: 0.25em 1em;
-  white-space: nowrap;
-}
-.component-button-dropdown.bottom .component-unordered-list {
-  position: absolute;
-  left: 0;
-}
-.component-button-dropdown.top .component-unordered-list {
-  position: absolute;
-  top: auto;
-  bottom: 100%;
-}
-/*------------------------------------*\
-    #Flag
-\*------------------------------------*/
-.component-flag {
-  background: #eeeeee;
-  border-color: #eeeeee;
-  display: inline-block;
-  line-height: 1em;
-  padding: 0.25em 1em;
-  position: relative;
-  margin: 0.5em 1em;
-}
-.component-flag:after,
-.component-flag:before {
-  content: "";
-  display: block;
-  top: 1.5em;
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-width: .75em .5em;
-  border-style: solid;
-  border-color: #e1e1e1;
-  z-index: -1;
-}
-.component-flag:after {
-  top: .25em;
-  right: 0;
-  margin-right: -0.75em;
-  border-right-color: transparent;
-}
-.component-flag:before {
-  top: .25em;
-  left: 0;
-  margin-left: -0.75em;
-  border-left-color: transparent;
-}
-.component-flag {
-  color: #414141;
-  background-color: #eeeeee;
-  border: #eeeeee;
-}
-.component-flag:after {
-  border-color: #e1e1e1;
-  border-right-color: transparent;
-}
-.component-flag:before {
-  border-color: #e1e1e1;
-  border-left-color: transparent;
-}
-.component-flag.default {
-  color: #414141;
-  background-color: #eeeeee;
-  border: #eeeeee;
-}
-.component-flag.default:after {
-  border-color: #e1e1e1;
-  border-right-color: transparent;
-}
-.component-flag.default:before {
-  border-color: #e1e1e1;
-  border-left-color: transparent;
-}
-.component-flag.primary {
-  color: #ffffff;
-  background-color: #9933cc;
-  border: #9933cc;
-}
-.component-flag.primary:after {
-  border-color: #8a2eb8;
-  border-right-color: transparent;
-}
-.component-flag.primary:before {
-  border-color: #8a2eb8;
-  border-left-color: transparent;
-}
-.component-flag.secondary {
-  color: #414141;
-  background-color: #0099db;
-  border: #0099db;
-}
-.component-flag.secondary:after {
-  border-color: #0087c2;
-  border-right-color: transparent;
-}
-.component-flag.secondary:before {
-  border-color: #0087c2;
-  border-left-color: transparent;
-}
-.component-flag.success {
-  color: #414141;
-  background-color: #88ba38;
-  border: #88ba38;
-}
-.component-flag.success:after {
-  border-color: #7aa632;
-  border-right-color: transparent;
-}
-.component-flag.success:before {
-  border-color: #7aa632;
-  border-left-color: transparent;
-}
-.component-flag.info {
-  color: #414141;
-  background-color: #5bc7de;
-  border: #5bc7de;
-}
-.component-flag.info:after {
-  border-color: #46c0da;
-  border-right-color: transparent;
-}
-.component-flag.info:before {
-  border-color: #46c0da;
-  border-left-color: transparent;
-}
-.component-flag.warning {
-  color: #414141;
-  background-color: #f0ad4e;
-  border: #f0ad4e;
-}
-.component-flag.warning:after {
-  border-color: #eea236;
-  border-right-color: transparent;
-}
-.component-flag.warning:before {
-  border-color: #eea236;
-  border-left-color: transparent;
-}
-.component-flag.danger {
-  color: #ffffff;
-  background-color: #d82b26;
-  border: #d82b26;
-}
-.component-flag.danger:after {
-  border-color: #c22722;
-  border-right-color: transparent;
-}
-.component-flag.danger:before {
-  border-color: #c22722;
-  border-left-color: transparent;
-}
-.component-flag .position-variant {
-  position: absolute;
-  top: 0;
-  bottom: auto;
-}
-.component-flag .flag-wrap {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  z-index: -1;
-  border-width: .25em;
-  top: 1.5em;
-}
-.component-flag .flag-end {
-  top: 0;
-  z-index: 0;
-  border-color: inherit;
-}
-.component-flag.right {
-  position: absolute;
-  top: 0;
-  bottom: auto;
-  right: 0;
-  margin-right: -0.5em;
-}
-.component-flag.right:after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  z-index: -1;
-  border-width: .25em;
-  top: 1.5em;
-  right: 0;
-  margin-top: -1px;
-  margin-right: 0;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-}
-.component-flag.right:before {
-  top: 0;
-  z-index: 0;
-  border-color: inherit;
-  border-left-color: transparent;
-}
-.component-flag.left {
-  position: absolute;
-  top: 0;
-  bottom: auto;
-  left: 0;
-  margin-left: -0.5em;
-}
-.component-flag.left:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  z-index: -1;
-  border-width: .25em;
-  top: 1.5em;
-  left: 0;
-  margin-top: -1px;
-  margin-left: 0;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-}
-.component-flag.left:after {
-  top: 0;
-  z-index: 0;
-  border-color: inherit;
-  border-right-color: transparent;
-}
-.component-flag.bottom {
-  top: auto;
-  bottom: 0;
-}
-/*------------------------------------*\
-    #Image
-\*------------------------------------*/
-img.component-image,
-.component-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-/*------------------------------------*\
-    #Input
-\*------------------------------------*/
-.component-input .component-input-label {
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  display: inline-block;
-  padding: 0.5em 0;
-}
-.component-input .component-input-field {
-  background: #eeeeee;
-  border: solid 1px #c8c8c8;
-  border-radius: 0.25em;
-  line-height: 1.61803399em;
-  padding: 0.5em 1em;
-  margin-left: 1em;
-  margin-bottom: 0.5em;
-}
-/*------------------------------------*\
-    # list Item
-\*------------------------------------*/
-ul.component-unordered-list,
-ol.component-ordered-list {
-  margin-left: 1.5em;
-}
-.component-icon-list {
-  list-style: none;
-  padding: 0;
-}
-.component-icon-list .component-list-item {
-  margin-left: 0;
-  display: table;
-  table-layout: fixed;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-.component-icon-list .component-list-item > div,
-.component-icon-list .component-list-item > p {
-  display: table-cell;
-}
-.component-icon-list .component-list-item > .component-icon {
-  display: table-cell;
-  width: 1.5em;
-  text-align: center;
-}
-/*------------------------------------*\
-    #Lozenge
-\*------------------------------------*/
-.component-lozenge {
-  padding: 0.5em 0.25em;
-  border-radius: 0.25em;
-  display: inline-block;
-  font-size: 0.75em;
-  line-height: 1em;
-  text-align: center;
-}
-.component-lozenge.block {
-  display: block;
-  width: 100%;
-}
-.component-lozenge {
-  background-color: #eeeeee;
-  color: #414141;
-}
-.component-lozenge.default {
-  background-color: #eeeeee;
-  color: #414141;
-}
-.component-lozenge.primary {
-  background-color: #9933cc;
-  color: #ffffff;
-}
-.component-lozenge.secondary {
-  background-color: #0099db;
-  color: #414141;
-}
-.component-lozenge.success {
-  background-color: #88ba38;
-  color: #414141;
-}
-.component-lozenge.info {
-  background-color: #5bc7de;
-  color: #414141;
-}
-.component-lozenge.warning {
-  background-color: #f0ad4e;
-  color: #414141;
-}
-.component-lozenge.danger {
-  background-color: #d82b26;
-  color: #ffffff;
-}
-/*------------------------------------*\
-    #Card
-\*------------------------------------*/
-.component-payment-card {
-  background: url('https://open-source.holidayextras.com/ui-toolkit/images/cards.png') no-repeat;
-  width: 52px;
-  height: 32px;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0;
-  background-size: 52px auto;
-}
-.component-payment-card.amazon {
-  background-position: 0 0px;
-}
-.component-payment-card.amex {
-  background-position: 0 -32px;
-}
-.component-payment-card.apple {
-  background-position: 0 -64px;
-}
-.component-payment-card.cirrus {
-  background-position: 0 -96px;
-}
-.component-payment-card.delta {
-  background-position: 0 -128px;
-}
-.component-payment-card.directdebit {
-  background-position: 0 -160px;
-}
-.component-payment-card.discover {
-  background-position: 0 -192px;
-}
-.component-payment-card.electron {
-  background-position: 0 -224px;
-}
-.component-payment-card.google {
-  background-position: 0 -256px;
-}
-.component-payment-card.maestro {
-  background-position: 0 -288px;
-}
-.component-payment-card.mastercard {
-  background-position: 0 -320px;
-}
-.component-payment-card.paym {
-  background-position: 0 -352px;
-}
-.component-payment-card.paypal {
-  background-position: 0 -384px;
-}
-.component-payment-card.sage {
-  background-position: 0 -416px;
-}
-.component-payment-card.sepa {
-  background-position: 0 -448px;
-}
-.component-payment-card.solo {
-  background-position: 0 -480px;
-}
-.component-payment-card.switch {
-  background-position: 0 -512px;
-}
-.component-payment-card.ukash {
-  background-position: 0 -544px;
-}
-.component-payment-card.visa {
-  background-position: 0 -576px;
-}
-.component-payment-card.visadebit {
-  background-position: 0 -608px;
-}
-.component-payment-card.westernunion {
-  background-position: 0 -640px;
-}
-/*------------------------------------*\
-    #Quote
-\*------------------------------------*/
-.component-quote {
-  border-left: solid 4px;
-  margin: 0;
-  padding: 1em;
-  font-size: 16px;
-  quotes: "“" "”" "‘" "’";
-}
-.component-quote.inline {
-  border-left: none;
-  padding: 0;
-}
-.component-quote p {
-  font-style: italic;
-  font-size: 16px;
-}
-.component-quote p:first-of-type {
-  margin-top: 0;
-}
-.component-quote p:before {
-  content: open-quote;
-}
-.component-quote p:after {
-  content: close-quote;
-}
-.component-quote footer {
-  font-size: 16px;
-}
-.component-quote small,
-.component-quote cite {
-  font-size: 4%;
-  font-size: 0.75em;
-}
-.component-quote cite:before {
-  content: "Source: ";
-}
-.component-quote + .component-quote {
-  margin-top: 0.5em;
-}
-.component-quote.primary {
-  color: #9933cc;
-  border-color: #d6adeb;
-}
-.component-quote.primary small,
-.component-quote.primary cite {
-  color: #c285e0;
-}
-.component-quote.secondary {
-  color: #0099db;
-  border-color: #75d5ff;
-}
-.component-quote.secondary small,
-.component-quote.secondary cite {
-  color: #42c6ff;
-}
-.component-quote.success {
-  color: #88ba38;
-  border-color: #cde4a7;
-}
-.component-quote.success small,
-.component-quote.success cite {
-  color: #b6d97f;
-}
-.component-quote.info {
-  color: #5bc7de;
-  border-color: #daf2f8;
-}
-.component-quote.info small,
-.component-quote.info cite {
-  color: #b0e4ef;
-}
-.component-quote.warning {
-  color: #f0ad4e;
-  border-color: #fceedb;
-}
-.component-quote.warning small,
-.component-quote.warning cite {
-  color: #f8d9ac;
-}
-.component-quote.danger {
-  color: #d82b26;
-  border-color: #f0a9a7;
-}
-.component-quote.danger small,
-.component-quote.danger cite {
-  color: #e87f7c;
-}
-.component-select .component-select-label {
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  display: inline-block;
-  padding: 0.5em;
-}
-.component-select .component-select-field {
-  background: #eeeeee;
-  border: solid 1px #c8c8c8;
-  border-radius: 0.25em;
-  line-height: 1.61803399em;
-  padding: 0.5em 1em;
-  margin-left: 1em;
-  margin-bottom: 0.5em;
-}
-.component-select.multiple .component-select-label {
-  float: left;
-  margin-right: 1em;
-}
-.component-stepper > div {
-  position: relative;
-  display: table;
-  border-collapse: separate;
-}
-.component-stepper > div .button-container {
-  position: relative;
-  white-space: nowrap;
-  vertical-align: middle;
-  display: table-cell;
-  box-sizing: border-box;
-  width: 1%;
-}
-.component-stepper > div .button-container .component-button {
-  margin: 0;
-  display: block;
-  width: 100%;
-}
-.component-stepper > div .button-container .component-button[disabled] {
-  background-color: #eeeeee;
-  border-color: #ccc;
-  color: #b1b1b1;
-}
-.component-stepper > div .button-container:last-child > .component-button {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-}
-.component-stepper > div .button-container:first-child > .component-button {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-}
-.component-stepper .component-input-label {
-  display: none;
-}
-.component-stepper .component-input-field {
-  width: 100%;
-  height: 43px;
-  border-radius: 0;
-  margin: 0;
-  text-align: center;
-}
-/*------------------------------------*\
-    #Tile
-\*------------------------------------*/
-.component-tile {
-  border-radius: 0.25em;
-  border: 1px solid #e1e1e1;
-}
-.component-tile .component-tile-block {
-  padding: 1em;
-}
-.component-tile img {
-  width: 100%;
-}
-/*------------------------------------*\
-    #Weather
-\*------------------------------------*/
-@font-face {
-  font-family: 'MeteoconsRegular';
-  src: url('https://open-source.holidayextras.com/ui-toolkit/images/fonts/meteocons-webfont.eot');
-  src: url('https://open-source.holidayextras.com/ui-toolkit/images/fonts/meteocons-webfont.eot?#iefix') format('embedded-opentype'), url('https://open-source.holidayextras.com/ui-toolkit/images/fonts/meteocons-webfont.woff') format('woff'), url('https://open-source.holidayextras.com/ui-toolkit/images/fonts/meteocons-webfont.ttf') format('truetype'), url('https://open-source.holidayextras.com/ui-toolkit/images/fonts/meteocons-webfont.svg#MeteoconsRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-.component-weather {
-  width: auto;
-  text-align: center;
-  width: 100px;
-}
-.component-weather div.cloudy {
-  padding-bottom: 0.5em;
-}
-.component-weather div.cloudy:before {
-  font-family: 'MeteoconsRegular';
-  content: "N";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.cloudy span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.fog {
-  padding-bottom: 0.5em;
-}
-.component-weather div.fog:before {
-  font-family: 'MeteoconsRegular';
-  content: "M";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.fog span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.hail {
-  padding-bottom: 0.5em;
-}
-.component-weather div.hail:before {
-  font-family: 'MeteoconsRegular';
-  content: "X";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.hail span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.heavy-rain {
-  padding-bottom: 0.5em;
-}
-.component-weather div.heavy-rain:before {
-  font-family: 'MeteoconsRegular';
-  content: "R";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.heavy-rain span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.heavy-snow {
-  padding-bottom: 0.5em;
-}
-.component-weather div.heavy-snow:before {
-  font-family: 'MeteoconsRegular';
-  content: "W";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.heavy-snow span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.light-rain {
-  padding-bottom: 0.5em;
-}
-.component-weather div.light-rain:before {
-  font-family: 'MeteoconsRegular';
-  content: "Q";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.light-rain span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.light-snow {
-  padding-bottom: 0.5em;
-}
-.component-weather div.light-snow:before {
-  font-family: 'MeteoconsRegular';
-  content: "U";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.light-snow span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.night-clear {
-  padding-bottom: 0.5em;
-}
-.component-weather div.night-clear:before {
-  font-family: 'MeteoconsRegular';
-  content: "C";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.night-clear span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.night-partly-cloudy {
-  padding-bottom: 0.5em;
-}
-.component-weather div.night-partly-cloudy:before {
-  font-family: 'MeteoconsRegular';
-  content: "I";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.night-partly-cloudy span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.partly-cloudy {
-  padding-bottom: 0.5em;
-}
-.component-weather div.partly-cloudy:before {
-  font-family: 'MeteoconsRegular';
-  content: "H";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.partly-cloudy span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.storm {
-  padding-bottom: 0.5em;
-}
-.component-weather div.storm:before {
-  font-family: 'MeteoconsRegular';
-  content: "Z";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.storm span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.sunny {
-  padding-bottom: 0.5em;
-}
-.component-weather div.sunny:before {
-  font-family: 'MeteoconsRegular';
-  content: "B";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.sunny span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather div.windy {
-  padding-bottom: 0.5em;
-}
-.component-weather div.windy:before {
-  font-family: 'MeteoconsRegular';
-  content: "F";
-  font-size: 3.5em;
-  visibility: visible;
-}
-.component-weather div.windy span {
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 0;
-}
-.component-weather abbr {
-  border-bottom: 0;
-}
-body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.61803399em;
-}
-h1,
-h2,
-h3 {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1em;
-}
-h1,
-.h1 {
-  font-size: 32px;
-  line-height: 1em;
-}
-h2,
-.h2 {
-  font-size: 26px;
-  line-height: 1em;
-}
-h3,
-.h3 {
-  font-size: 22px;
-  line-height: 1em;
-}
-h4,
-.h4 {
-  font-size: 18px;
-  line-height: 1em;
-}
-h5,
-.h5 {
-  font-size: 16px;
-  line-height: 1em;
-}
-h6,
-.h6 {
-  font-size: 14px;
-  line-height: 1em;
-  text-transform: uppercase;
-}
 h1,
 h2,
 h3,
@@ -8144,7 +6754,7 @@ h5,
 h6,
 .h5,
 .h6 {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: inherit;
 }
 h5 small,
@@ -8209,7 +6819,7 @@ blockquote {
   padding: 12.5px 0;
   quotes: "\201C" "\201D" "\2018" "\2019";
   border: none;
-  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
   line-height: 1.25em;
   color: #818181;
@@ -8258,7 +6868,7 @@ blockquote p:after {
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
-  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 q:before {
@@ -8579,7 +7189,7 @@ hr.hr-asterism:after {
   margin-left: -2em;
   margin-top: -0.5em;
   padding: 0 0.5em;
-  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.25em;
   line-height: 1.25em;
   text-align: center;
@@ -9369,7 +7979,7 @@ article section > p:first-of-type:first-letter {
   font-size: 2.75em;
   line-height: 1em;
   margin: 0 .1em 0;
-  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 article section.container {
@@ -9444,7 +8054,7 @@ article section.container {
 }
 .popover-title {
   padding: 10px;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #f5f5f5;
   border-bottom: 1px solid #dddddd;
