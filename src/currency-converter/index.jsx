@@ -3,7 +3,7 @@ const $ = require('jquery');
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-var CurrencyConverter = React.createClass({
+module.exports = React.createClass({
   getInitialState() {
     return {
       rates: {},
@@ -47,35 +47,32 @@ var CurrencyConverter = React.createClass({
   render: function() {
     return (
       <form className="form-horizontal">
-        <center><h2>Currency Convertor</h2></center>
         <div className="form-group">
-          <div className="col-md-10">
+          <div className="col-sm-4">
             <label for="GBP">GBP</label>
+          </div>
+          <div className="col-sm-8">
             <input type='text' className="form-control" label='GBP' onChange={this.convertCurrency} value={this.state.base} />
           </div>
         </div>
 
+
         <div className="form-group">
-          <div className="col-md-10">
+          <div className="col-sm-4">
             <select className="form-control" onChange={this.selectConversion}>
               <option value="EUR">Euro</option>
               <option value="USD">US Dollar</option>
             </select>
           </div>
-        </div>
-
-        <div className="form-group">
-          <div className="col-md-10">
+          <div className="col-sm-8">
             <input type='text' className="form-control" label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
           </div>
         </div>
-
       </form>
     );
   }
 });
 
-ReactDOM.render(<CurrencyConverter />, document.getElementById('demo'));
 
 
 
