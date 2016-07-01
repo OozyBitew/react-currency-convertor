@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/holidayextras/react-currency-converter/issues"
+    "url": "https://github.com/holidayextras/react-currency-convertor/issues"
   },
-  "homepage": "https://github.com/holidayextras/react-currency-converter#readme",
+  "homepage": "https://github.com/holidayextras/react-currency-convertor#readme",
   "dependencies": {
     "@holidayextras/hx-brand": "^1.0.6",
     "bootstrap": "^3.3.6",
