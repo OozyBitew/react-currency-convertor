@@ -1,3 +1,5 @@
 node_modules
 .eslintrc
-demo/index.js
+demo
+
+!demo/index.html
