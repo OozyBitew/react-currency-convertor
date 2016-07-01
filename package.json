@@ -4,7 +4,7 @@
   "description": "Currency Convertor for converting currencies",
   "main": "src/currency-convertor/index.jsx",
   "scripts": {
-    "build": "gulp build",
+    "build": "gulp less && gulp build",
     "lint": "make-up && echo 'Linting: ✓'",
     "test": "echo '0 tests passed'"
   },
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/holidayextras/react-currency-convertor#readme",
   "dependencies": {
+    "@holidayextras/ui-toolkit": "^2.2.1",
+    "@holidayextras/hx-brand": "^1.0.6",
     "bootstrap": "^3.3.6",
-    "money": "^0.2.0",
+    "jquery": "^3.0.0",
     "react": "^0.14.8",
     "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.8",
@@ -32,6 +34,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-browserify": "^0.5.1",
+    "gulp-less": "^3.1.0",
     "gulp-notify": "^2.2.0",
     "make-up": "^9.2.0"
   }

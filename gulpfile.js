@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var babel = require('gulp-babel');
 var browserify = require('gulp-browserify');
+var less = require('gulp-less');
 var notify = require('gulp-notify');
 
 function logError(error) {
@@ -30,6 +31,9 @@ gulp.task('build', function() {
   .pipe(gulp.dest('./demo'));
 });
 
-gulp.task('start', function(cb) {
-  return runSequence('build', cb);
+gulp.task('less', function() {
+  return gulp.src('../node_modules/@holidayextras/hx-brand/src/less/theme.less')
+  .pipe(less())
+  .on('error', logError)
+  .pipe('./demo');
 });
