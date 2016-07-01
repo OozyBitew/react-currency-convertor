@@ -1,5 +1,5 @@
 {
-  "name": "react-currency-convertor",
+  "name": "react-currency-converter",
   "version": "1.0.0",
   "description": "Currency Convertor for converting currencies",
   "main": "src/currency-convertor/index.jsx",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/holidayextras/react-currency-convertor/issues"
+    "url": "https://github.com/holidayextras/react-currency-converter/issues"
   },
-  "homepage": "https://github.com/holidayextras/react-currency-convertor#readme",
+  "homepage": "https://github.com/holidayextras/react-currency-converter#readme",
   "dependencies": {
     "@holidayextras/hx-brand": "^1.0.6",
     "bootstrap": "^3.3.6",
