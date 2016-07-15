@@ -48,51 +48,55 @@ module.exports = React.createClass({
 
   render: function render() {
     return React.createElement(
-      'form',
-      { className: 'form-horizontal' },
+      'div',
+      { className: 'currency-converter' },
       React.createElement(
-        'div',
-        { className: 'form-group' },
+        'form',
+        { className: 'form-horizontal' },
         React.createElement(
           'div',
-          { className: 'col-sm-6 col-md-4' },
+          { className: 'form-group' },
           React.createElement(
-            'label',
-            null,
-            'GBP'
-          )
-        ),
-        React.createElement(
-          'div',
-          { className: 'col-sm-6 col-md-8' },
-          React.createElement('input', { type: 'text', className: 'form-control', onChange: this.convertCurrency, value: this.state.base })
-        )
-      ),
-      React.createElement(
-        'div',
-        { className: 'form-group' },
-        React.createElement(
-          'div',
-          { className: 'col-sm-6 col-md-4' },
-          React.createElement(
-            'select',
-            { className: 'form-control', onChange: this.selectConversion },
+            'div',
+            { className: 'column-left' },
             React.createElement(
-              'option',
-              { value: 'EUR' },
-              'Euro'
-            ),
-            React.createElement(
-              'option',
-              { value: 'USD' },
-              'US Dollar'
+              'label',
+              null,
+              'GBP'
             )
+          ),
+          React.createElement(
+            'div',
+            { className: 'column-right' },
+            React.createElement('input', { type: 'text', className: 'form-control', onChange: this.convertCurrency, value: this.state.base })
           )
         ),
         React.createElement(
           'div',
-          { className: 'col-sm-6 col-md-8' },
-          React.createElement('input', { type: 'text', className: 'form-control', label: this.state.conversion, onChange: this.convertCurrency, value: this.state.converted })
+          { className: 'form-group' },
+          React.createElement(
+            'div',
+            { className: 'column-left' },
+            React.createElement(
+              'select',
+              { className: 'form-control', onChange: this.selectConversion },
+              React.createElement(
+                'option',
+                { value: 'EUR' },
+                'Euro'
+              ),
+              React.createElement(
+                'option',
+                { value: 'USD' },
+                'US Dollar'
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { className: 'column-right' },
+            React.createElement('input', { type: 'text', className: 'form-control', label: this.state.conversion, onChange: this.convertCurrency, value: this.state.converted })
+          )
         )
       )
     );

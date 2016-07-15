@@ -33,7 +33,7 @@ module.exports = React.createClass({
     let val = this.state.base;
     if(e && e.target) {
       val = e.target.value;
-    } 
+    }
     const rate = this.state.rates[this.state.conversion];
 
     this.setState({
@@ -44,28 +44,30 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-      <form className="form-horizontal">
-        <div className="form-group">
-          <div className="col-sm-6 col-md-4">
-            <label>GBP</label>
+      <div className='currency-converter'>
+        <form className="form-horizontal">
+          <div className="form-group">
+            <div className="column-left">
+              <label>GBP</label>
+            </div>
+            <div className="column-right">
+              <input type='text' className="form-control" onChange={this.convertCurrency} value={this.state.base} />
+            </div>
           </div>
-          <div className="col-sm-6 col-md-8">
-            <input type='text' className="form-control" onChange={this.convertCurrency} value={this.state.base} />
-          </div>
-        </div>
 
-        <div className="form-group">
-          <div className="col-sm-6 col-md-4">
-            <select className="form-control" onChange={this.selectConversion}>
-              <option value="EUR">Euro</option>
-              <option value="USD">US Dollar</option>
-            </select>
+          <div className="form-group">
+            <div className="column-left">
+              <select className="form-control" onChange={this.selectConversion}>
+                <option value="EUR">Euro</option>
+                <option value="USD">US Dollar</option>
+              </select>
+            </div>
+            <div className="column-right">
+              <input type='text' className="form-control" label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
+            </div>
           </div>
-          <div className="col-sm-6 col-md-8">
-            <input type='text' className="form-control" label={this.state.conversion} onChange={this.convertCurrency} value={this.state.converted} />
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
     );
   }
 });
