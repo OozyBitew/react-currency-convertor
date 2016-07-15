@@ -48,7 +48,7 @@ module.exports = React.createClass({
         <form className="form-horizontal">
           <div className="form-group">
             <div className="column-left">
-              <label>GBP</label>
+              <input className='form-control' disabled value='GBP' type='text'/>
             </div>
             <div className="column-right">
               <input type='text' className="form-control" onChange={this.convertCurrency} value={this.state.base} />

@@ -59,11 +59,7 @@ module.exports = React.createClass({
           React.createElement(
             'div',
             { className: 'column-left' },
-            React.createElement(
-              'label',
-              null,
-              'GBP'
-            )
+            React.createElement('input', { className: 'form-control', disabled: true, value: 'GBP', type: 'text' })
           ),
           React.createElement(
             'div',
