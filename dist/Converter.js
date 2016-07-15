@@ -58,12 +58,12 @@ module.exports = React.createClass({
           { className: 'form-group' },
           React.createElement(
             'div',
-            { className: 'column-left' },
+            { className: 'column-left col-md-6 col-md-4' },
             React.createElement('input', { className: 'form-control', disabled: true, value: 'GBP', type: 'text' })
           ),
           React.createElement(
             'div',
-            { className: 'column-right' },
+            { className: 'column-right col-md-6 col-md-4' },
             React.createElement('input', { type: 'text', className: 'form-control', onChange: this.convertCurrency, value: this.state.base })
           )
         ),
@@ -72,7 +72,7 @@ module.exports = React.createClass({
           { className: 'form-group' },
           React.createElement(
             'div',
-            { className: 'column-left' },
+            { className: 'column-left col-md-6 col-md-4' },
             React.createElement(
               'select',
               { className: 'form-control', onChange: this.selectConversion },
@@ -90,7 +90,7 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'div',
-            { className: 'column-right' },
+            { className: 'column-right col-md-6 col-md-4' },
             React.createElement('input', { type: 'text', className: 'form-control', label: this.state.conversion, onChange: this.convertCurrency, value: this.state.converted })
           )
         )
